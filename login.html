@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en-UK">
+  <head>
+    <meta charset = "UTF-8">
+    <title>PROTOTYPE</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/form.css">
+  </head>
+  
+  <body>
+    <nav class="nav-bar">
+      <a href="index.html" style="padding-left: 8pt;" class="nav-item" title="Home">Home</a>
+      <div style="flex-grow: 1;"></div>        
+      <a href="skills.html" style="padding-right: 20pt;" class="nav-item" title="Skills">Skills</a>
+      <a href="experience.html" style="padding-right: 20pt;" class="nav-item" title="Experience">Experience</a>
+      <a href="blog.html" style="padding-right: 20pt;" class="nav-item" title="Blog">Blog</a>
+    </nav>
+
+    <div class="content">
+      <h1>Blog Login</h1>
+      <form>
+        <div class="form-entry">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="form-icon">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Username: <input type="email" name="email" required class="textfield" />
+        </div>
+
+        <div class="form-entry">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="form-icon">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+          </svg>
+          Password: <input type="password" name="password" required minlength=8 class="textfield" />
+        </div>
+        <input type="submit" class="submit-button" />
+      </form>
+    </div>
+  </body>
+</html>
+    

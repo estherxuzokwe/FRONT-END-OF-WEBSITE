@@ -1,0 +1,45 @@
+.date {
+    color: #6B7280;
+}
+
+.title {
+    color: #312E81;
+    font-size: 24pt;
+    font-weight: 500;
+}
+
+.blog-post {
+    margin-top: 56pt;
+}
+
+.body {
+    margin-top: 15pt;
+}
+
+.blog-title-container {
+    font-size: 22pt;
+    margin-bottom: -50pt;
+    padding-top: 20pt;
+}
+
+.post-button {
+    font-size: 11pt;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    background-color: #7C3AED;
+    color: white;
+    padding: 6pt 10pt;
+    border-radius: 8pt;
+    box-shadow: 0pt 2pt 5pt #D1D5DB;
+}
+
+.post-button:hover {
+    background-color: #8B5CF6;
+    box-shadow: 0pt;
+}
+
+.blog-container {
+    max-width: 500pt;
+    margin: auto;
+}
